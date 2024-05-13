@@ -1,0 +1,194 @@
+.contact__card {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  border-top: 1px solid #33323d26;
+  border-bottom: 1px solid #33323d32;
+  margin-bottom: 47px;
+}
+
+.contact__card p {
+  width: 635px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #33323dc0;
+  margin-bottom: 24px;
+}
+
+.contact__card h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+}
+
+.contact__card img {
+  margin-bottom: 48px;
+}
+
+.contact__card2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 109px;
+}
+
+.contact__card2 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+}
+
+.contact__item2 form {
+  width: 635px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.contact__item2 input {
+  width: 100%;
+  height: 48px;
+  border: none;
+  background: #33323d3d;
+  padding: 9px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #33323d;
+}
+
+.form-active {
+  border: 2px solid #5fb4a2;
+}
+
+.input-active {
+  border: none;
+
+  outline: 2px solid #5fb4a2;
+}
+
+.form-active2 {
+  border: 2px solid #5fb4a2;
+}
+
+.input-active2 {
+  border: none;
+
+  outline: 2px solid #5fb4a2;
+}
+
+.form-active3 {
+  border: 2px solid #5fb4a2;
+}
+
+.input-active3 {
+  border: none;
+
+  outline: 2px solid #5fb4a2;
+}
+
+.button-active {
+  border: 2px solid rgb(255, 0, 0);
+  outline: 2px solid rgb(255, 0, 0);
+}
+
+.contact__item2 p {
+  color: #33323d;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.contact__item3 form {
+  height: 96px;
+}
+
+.contact__item3 input {
+  width: 100%;
+  height: 100%;
+  padding: 9px 0 57px 16px;
+}
+
+.contact__item3 p {
+  color: #33323d;
+  font-size: 13px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.contact__item2 button {
+  width: 200px;
+  height: 48px;
+  background: #203a4c;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 27px;
+}
+
+@media (max-width: 1000px) {
+  .contact__card p {
+    width: 500px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .contact__item2 form {
+    width: 500px;
+    margin-bottom: 24px;
+    border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact__card p {
+    width: 400px;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .contact__item2 form {
+    width: 400px;
+    margin-bottom: 24px;
+    border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 48px;
+    border-top: 1px solid #33323d26;
+    border-bottom: 1px solid #33323d32;
+    margin-bottom: 47px;
+  }
+  .contact__card2 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact__item2 form {
+    width: 300px;
+    margin-bottom: 24px;
+    border: none;
+  }
+  .contact__card p{
+    width: 300px;
+  }
+}
